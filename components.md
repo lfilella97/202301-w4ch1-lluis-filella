@@ -1,46 +1,46 @@
 # Data
 
-## Data layer
+## Data layer //variable
 
--List of gentleman:
--Id
--Name
--Status
--Profession
--Twitter
--Picture
--AlternativeText
--Selected
+- List of Gentlemen
+  - id
+  - name
+  - status
+  - profession
+  - twitter
+  - picture
+  - alternativaText
+  - selected
 
-## Data modifications
+## Data modification // funciones
 
-- Toggle selected property of gentleman
-- Delete a gentleman
-- Select all gentleman
+- toggle selected property of gentleman
+- select all gentlemen
+- delete a gentleman
 
 # Components
 
 ## App
 
-- Contains the gentleman list.
-- COntains 3 functions ("toggle","select all", "delete").
-- Sends the list of gentlemen to Info.
-  -Sends the funciton "delete" and "toggle" to gentleman
-  -Sends the function select all to info.
+- Contains the gentlemen list // variable estado. no modificamos, matxacamos.
+- Contains the function "toggle",
+- Contains the function "select all"
+- Contains the function "delete"
+- Sends the functions "delete" and "toggle" to Gentleman
+- Sends the function "select all" to Button
+- Sends the list of gentlemen to Info
 
 ## Info
 
--Recieves a list of gentleman
--Display number of selected gentleman filter by selected length...
+- Receives the list of gentlemen from App
+- Display number of selected gentlemen
 
-## Button
+## Button // pueder ser un <a>
 
--Selects cards
--Recieves the select all function
+- Receives the function to "select all"
 
 ## Gentleman
 
--Recieve text
--Recieve images
--Recieve gentleman
--Recives the functions: "toggle" and "delete"
+- Receives the function to "delete"
+- Receives the function "toggle"
+- Receives a gentleman
