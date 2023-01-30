@@ -2,36 +2,45 @@
 
 ## Data layer
 
-- pet:
-  - image URL
-  - alt text
-  - description
+-List of gentleman:
+-Id
+-Name
+-Status
+-Profession
+-Twitter
+-Picture
+-AlternativeText
+-Selected
 
 ## Data modifications
 
-- change pet to a cat
+- Toggle selected property of gentleman
+- Delete a gentleman
+- Select all gentleman
 
 # Components
 
 ## App
 
-- Contains the pet
-- Contains the improve pet function
+- Contains the gentleman list.
+- COntains 3 functions ("toggle","select all", "delete").
+- Sends the list of gentlemen to Info.
+  -Sends the funciton "delete" and "toggle" to gentleman
+  -Sends the function select all to info.
 
-- Sends the title to Title
-- Sends the current pet to Pet
-- Sends the improve pet function to Button
+## Info
 
-## Title
-
-- Receives the title
-
-## Navigation
-
-## Pet
-
-- Receives the current pet
+-Recieves a list of gentleman
+-Display number of selected gentleman filter by selected length...
 
 ## Button
 
-- Receives the improve pet function
+-Selects cards
+-Recieves the select all function
+
+## Gentleman
+
+-Recieve text
+-Recieve images
+-Recieve gentleman
+-Recives the functions: "toggle" and "delete"
